@@ -1,0 +1,38 @@
+.page1 {
+		BORDER-RIGHT: #e6e6e6 1px solid;
+	    BORDER-TOP: #e6e6e6 1px solid;
+		DISPLAY: inline;
+		BORDER-LEFT: #e6e6e6 1px solid;
+		CURSOR: pointer; MARGIN-RIGHT: 5px;
+		BORDER-BOTTOM: #e6e6e6 1px solid;
+		LIST-STYLE-TYPE: none;
+		font-size:12px;
+}
+.page2 {
+		CURSOR: pointer;
+		BORDER-RIGHT: #b7d8ee 1px solid;
+		BORDER-TOP: #b7d8ee 1px solid;
+		BORDER-LEFT: #b7d8ee 1px solid;
+		BORDER-BOTTOM: #b7d8ee 1px solid;
+		BACKGROUND-COLOR: #d2eaf6;
+		FONT-WEIGHT: bold; COLOR: #444444;
+		font-size:12px;
+}
+*{margin:0;padding:0;border:0;}
+body { font-family: arial, 宋体, serif; font-size:12px; }
+#nav { line-height: 24px; list-style-type: none; background:#1C82D7; }
+#nav a { display: block; width: 90px; text-align:right; }
+#nav a:link { color:#666; text-decoration:none; }
+#nav a:visited { color:#666;text-decoration:none; }
+#nav a:hover { color:#FFF;text-decoration:none;font-weight:bold; }
+#nav li { float: left; width: 141px; background-color: red; }
+#nav li a:hover{ background-color: red; }
+#nav li ul { line-height: 27px; list-style-type: none;text-align:left; left: -999em; width: 130px; position: absolute; }
+#nav li ul li{ float: left; width: 130px; background-color: red;/*下拉背景颜色*/ }
+#nav li ul a{ display: block; width: 130px;width: 130px;text-align:left;padding-left:24px; box-sizing: border-box; }
+#nav li ul a:link { color:#ffffff; text-decoration:none; }
+#nav li ul a:visited { color:#ffffff; text-decoration:none; }
+#nav li ul a:hover { color:#F3F3F3; text-decoration:none; font-weight:normal; background-color: red; }
+#nav li:hover ul { left: auto; }
+#nav li.sfhover ul { left: auto; }
+#content { clear: left; }
